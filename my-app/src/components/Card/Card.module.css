@@ -1,0 +1,101 @@
+.card {
+  background: linear-gradient(114.99deg, #471CA9 -0.99%, #5736A3 54.28%, #4B2A99 78.99%);
+  width: 380px;
+  box-shadow: -2.5777px 6.87386px 20.6216px rgba(0, 0, 0, 0.23);
+  border-radius: 20px;
+  margin: 10px auto 0 auto;
+  padding-bottom: 36px;
+}
+
+.card-top {
+  height: 214px;
+  background-image: url('../../../public/images/background.png');
+  background-size: 308px 168px;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+.card-logo {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.card-line {
+  height: 8px;
+  width: 100%;
+  background-color: #EBD8FF;
+    box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06), inset 0px -1.71846px 3.43693px #AE7BE3, inset 0px 3.43693px 2.5777px #FBF8FF;
+}
+
+.card-avatar-div {
+  margin: -44px auto 26px auto;
+  height: 80px;
+  width: 80px;
+  background-color: #EBD8FF;
+  box-shadow: 0px 4.39163px 4.39163px rgba(0, 0, 0, 0.06), inset 0px -2.19582px 4.39163px #AE7BE3, inset 0px 4.39163px 3.29372px #FBF8FF;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-avatar {
+  height: 62px;
+  width: 62px;
+  border-radius: 50%;
+}
+
+.card-tweets {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #EBD8FF;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.card-followers {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #EBD8FF;
+  margin-top: 0;
+  margin-bottom: 26px;
+}
+
+.card-btn {
+  margin: 0 auto;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 28px;
+  gap: 6px;
+  background: #EBD8FF;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
+  text-transform: uppercase;
+  border-radius: 10.3108px;
+  cursor: pointer;
+}
+
+.card-btn-active {
+  margin: 0 auto;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 28px;
+  gap: 6px;
+  background: #5CD3A8;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
+  text-transform: uppercase;
+  border-radius: 10.3108px;
+  cursor: pointer;
+}
